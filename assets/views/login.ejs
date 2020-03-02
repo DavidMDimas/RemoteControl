@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<% include partials/head.ejs %>
+
+
+<body>
+    <style type="text/css">
+        body {
+            background: #ffffff;
+        }
+
+        body>.grid {
+            height: 100%;
+        }
+
+        .image {
+            margin-top: -100px;
+        }
+
+        .column {
+            max-width: 450px;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $('.ui.form').form({
+                fields: {
+                    email: {
+                        identifier: 'username',
+                        rules: [
+                            {
+                                type: 'empty',
+                                prompt: 'Ingresa tu usuario'
+                            }
+                        ]
+                    },
+                    password: {
+                        identifier: 'password',
+                        rules: [
+                            {
+                                type: 'empty',
+                                prompt: 'Ingresa tu contraseña'
+                            }
+                        ]
+                    }
+                }
+            });
+        });
+    </script>
+
+    <div class="ui middle aligned center aligned grid">
+
+        <div class="column">
+
+            <form class="ui large form" method="POST">
+                <div class="ui stacked segment">
+                    <h2 class="ui image header">
+                        <div class="content">
+                            <h1>x001001x</h1>
+                            <center><img src="/pwned_!.png" style="height: 80px;"></center>
+                        </div>
+                    </h2>
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="user icon"></i>
+                            <input type="text" name="username" placeholder="Usuario">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="lock icon"></i>
+                            <input type="password" name="password" placeholder="Contraseña">
+                        </div>
+                    </div>
+                    <div class="ui fluid large teal submit button">Acceder</div>
+                    <div class="ui error message"></div>
+
+                </div>
+
+            </form>
+            <% include partials/footer.ejs %>
+        </div>
+    </div>
+</body>
+
+</html>

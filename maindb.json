@@ -1,0 +1,1062 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "21232f297a57a5a743894a0e4a801fc3",
+    "loginToken": "cc870d2398b0924ef5f6796b4060f95f",
+    "logs": [
+      {
+        "time": "2020-03-02T16:47:09.304Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/mnt/c/Users/dmartinez/Desktop/PentestTool/bin/AndroidRat/app/factory/sign.jar\" \"/mnt/c/Users/dmartinez/Desktop/PentestTool/bin/AndroidRat/assets/webpublic/build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\n\tat s.Sign.sign(Sign.java:454)\n\tat s.Sign.main(Sign.java:532)\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)\n\t... 3 more\n"
+      },
+      {
+        "time": "2020-03-02T17:10:58.160Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/mnt/c/Users/dmartinez/Desktop/PentestTool/bin/AndroidRat/app/factory/sign.jar\" \"/mnt/c/Users/dmartinez/Desktop/PentestTool/bin/AndroidRat/assets/webpublic/build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\n\tat s.Sign.sign(Sign.java:454)\n\tat s.Sign.main(Sign.java:532)\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)\n\t... 3 more\n"
+      },
+      {
+        "time": "2020-03-02T17:16:49.225Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/mnt/c/Users/dmartinez/Desktop/PentestTool/bin/AndroidRat/app/factory/sign.jar\" \"/mnt/c/Users/dmartinez/Desktop/PentestTool/bin/AndroidRat/assets/webpublic/build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\n\tat s.Sign.sign(Sign.java:454)\n\tat s.Sign.main(Sign.java:532)\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)\n\t... 3 more\n"
+      },
+      {
+        "time": "2020-03-02T17:19:54.256Z",
+        "type": "SUCCESS",
+        "message": "Build Succeded!"
+      },
+      {
+        "time": "2020-03-02T17:21:07.942Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a Connected"
+      },
+      {
+        "time": "2020-03-02T17:27:49.339Z",
+        "type": "INFO",
+        "message": "Requested 0xCO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T17:27:51.351Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a Contacts Updated - 721 New Contacts Added"
+      },
+      {
+        "time": "2020-03-02T17:27:52.117Z",
+        "type": "INFO",
+        "message": "Requested 0xCO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T17:27:52.381Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a Contacts Updated - 0 New Contacts Added"
+      },
+      {
+        "time": "2020-03-02T17:27:58.878Z",
+        "type": "INFO",
+        "message": "Requested 0xCL From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T17:27:58.912Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a Call Log Updated - 1 New Calls"
+      },
+      {
+        "time": "2020-03-02T17:28:15.784Z",
+        "type": "INFO",
+        "message": "Requested 0xSM From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T17:28:15.840Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a SMS List Updated - 0 New Messages"
+      },
+      {
+        "time": "2020-03-02T17:28:19.952Z",
+        "type": "INFO",
+        "message": "Requested 0xWI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T17:28:19.976Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a WiFi Updated - 1 New WiFi Hotspots Found"
+      },
+      {
+        "time": "2020-03-02T17:28:23.687Z",
+        "type": "INFO",
+        "message": "Requested 0xIN From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T17:28:24.842Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a Apps Updated"
+      },
+      {
+        "time": "2020-03-02T17:28:29.185Z",
+        "type": "INFO",
+        "message": "Requested 0xPM From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T17:28:29.202Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a Permissions Updated"
+      },
+      {
+        "time": "2020-03-02T17:28:33.550Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T17:28:33.592Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T17:28:36.586Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T17:28:36.601Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T17:28:53.078Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T17:28:53.100Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T17:28:56.911Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T17:28:56.969Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T17:28:59.022Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T17:28:59.052Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T17:29:01.739Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T17:29:01.914Z",
+        "type": "INFO",
+        "message": "Recieving File From738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T17:29:01.920Z",
+        "type": "SUCCESS",
+        "message": "File From738e956bab1bf99a Saved"
+      },
+      {
+        "time": "2020-03-02T17:36:39.094Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a Connected"
+      },
+      {
+        "time": "2020-03-02T17:43:55.692Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a Connected"
+      },
+      {
+        "time": "2020-03-02T17:44:59.392Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a Connected"
+      },
+      {
+        "time": "2020-03-02T18:13:43.416Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a Disconnected"
+      },
+      {
+        "time": "2020-03-02T18:14:53.150Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a Connected"
+      },
+      {
+        "time": "2020-03-02T18:14:53.152Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a Running Queued Commands"
+      },
+      {
+        "time": "2020-03-02T18:14:53.159Z",
+        "type": "INFO",
+        "message": "Requested 0xCL From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:14:53.491Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a Call Log Updated - 0 New Calls"
+      },
+      {
+        "time": "2020-03-02T18:16:42.839Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:16:42.857Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T18:16:44.599Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:16:44.619Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T18:16:47.307Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:16:47.323Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T18:16:49.405Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:16:49.440Z",
+        "type": "INFO",
+        "message": "Recieving File From738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:16:49.445Z",
+        "type": "SUCCESS",
+        "message": "File From738e956bab1bf99a Saved"
+      },
+      {
+        "time": "2020-03-02T18:18:15.124Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:18:15.168Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T18:18:19.273Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:18:19.335Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T18:18:22.020Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:18:22.120Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T18:18:24.974Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:18:24.991Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T18:18:27.302Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:18:27.393Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T18:18:32.154Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:18:32.172Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T18:18:34.247Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:18:34.269Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T18:18:36.381Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:18:36.399Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T18:18:38.432Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:18:38.456Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T18:18:41.304Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:18:41.320Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T18:18:46.073Z",
+        "type": "INFO",
+        "message": "Requested 0xFI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:18:46.098Z",
+        "type": "SUCCESS",
+        "message": "File List Updated"
+      },
+      {
+        "time": "2020-03-02T18:24:42.000Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a Disconnected"
+      },
+      {
+        "time": "2020-03-02T18:25:49.851Z",
+        "type": "SUCCESS",
+        "message": "Build Succeded!"
+      },
+      {
+        "time": "2020-03-02T18:26:54.697Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a Connected"
+      },
+      {
+        "time": "2020-03-02T18:27:50.425Z",
+        "type": "INFO",
+        "message": "Requested 0xMI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:28:10.699Z",
+        "type": "INFO",
+        "message": "Requested 0xMI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:28:15.244Z",
+        "type": "INFO",
+        "message": "Requested 0xMI From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:28:32.374Z",
+        "type": "INFO",
+        "message": "Recieving sound6525319267492128042.mp3 from 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:28:47.580Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:28:47.598Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T18:29:31.467Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:29:31.496Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T18:29:34.761Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:29:34.783Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T18:29:36.563Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:29:36.580Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T18:29:41.555Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:29:41.578Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T18:29:42.700Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:29:42.718Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T18:30:03.967Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:30:04.006Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T18:30:05.789Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:30:05.808Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T18:30:13.490Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:30:13.507Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T18:30:15.124Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:30:15.145Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T18:30:27.739Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:30:27.756Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T18:32:54.376Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:32:54.394Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T18:32:56.127Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:32:56.144Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T18:33:44.106Z",
+        "type": "INFO",
+        "message": "Requested 0xCL From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T18:33:44.137Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a Call Log Updated - 0 New Calls"
+      },
+      {
+        "time": "2020-03-02T19:03:49.933Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a Disconnected"
+      },
+      {
+        "time": "2020-03-02T19:30:04.302Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a Connected"
+      },
+      {
+        "time": "2020-03-02T19:57:04.262Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T19:57:04.283Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T19:57:06.127Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T19:57:06.142Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T19:57:57.531Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T19:57:57.552Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T19:57:59.382Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T19:57:59.395Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T19:58:00.473Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T19:58:00.492Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T19:58:01.415Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T19:58:01.435Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T19:58:01.596Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T19:58:01.613Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T19:58:01.789Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T19:58:01.802Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T19:58:07.734Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T19:58:07.790Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T19:58:08.750Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T19:58:08.765Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T19:58:18.667Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T19:58:18.683Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T19:58:19.775Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T19:58:19.793Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T19:58:24.952Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T19:58:24.970Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T19:58:26.373Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T19:58:26.393Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T19:58:35.660Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T19:58:35.685Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T19:58:36.793Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T19:58:36.813Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T20:00:13.553Z",
+        "type": "INFO",
+        "message": "Requested 0xSM From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T20:00:13.824Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a SMS List Updated - 0 New Messages"
+      },
+      {
+        "time": "2020-03-02T20:00:15.143Z",
+        "type": "INFO",
+        "message": "Requested 0xSM From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T20:00:15.197Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a SMS List Updated - 0 New Messages"
+      },
+      {
+        "time": "2020-03-02T20:05:43.255Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a Connected"
+      },
+      {
+        "time": "2020-03-02T20:05:43.257Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a Running Queued Commands"
+      },
+      {
+        "time": "2020-03-02T20:05:43.259Z",
+        "type": "INFO",
+        "message": "Requested 0xSM From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T20:05:43.268Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a Connected"
+      },
+      {
+        "time": "2020-03-02T20:05:43.269Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a Running Queued Commands"
+      },
+      {
+        "time": "2020-03-02T20:05:43.271Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T20:05:43.423Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a SMS List Updated - 0 New Messages"
+      },
+      {
+        "time": "2020-03-02T20:06:13.407Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a Disconnected"
+      },
+      {
+        "time": "2020-03-02T20:06:14.968Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a Connected"
+      },
+      {
+        "time": "2020-03-02T20:11:14.970Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T20:11:14.972Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T20:11:14.991Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T20:16:14.971Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T20:16:14.976Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T20:16:14.991Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T20:21:14.972Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T20:21:14.974Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T20:21:14.989Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T20:26:14.974Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T20:26:14.976Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T20:26:15.031Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T20:31:14.973Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T20:31:14.976Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T20:31:14.992Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T20:36:14.974Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T20:36:14.978Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T20:36:14.994Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T20:41:14.974Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T20:41:14.976Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T20:41:14.992Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T20:46:14.975Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T20:46:14.977Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T20:46:14.995Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T20:51:14.975Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T20:51:14.977Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T20:51:14.993Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T20:56:14.975Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T20:56:14.977Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T20:56:14.994Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T21:01:14.976Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T21:01:14.978Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T21:01:14.993Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T21:06:14.977Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T21:06:14.980Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T21:06:14.997Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T21:11:14.977Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T21:11:14.979Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T21:11:14.998Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T21:16:14.978Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T21:16:14.979Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T21:16:14.995Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T21:21:14.978Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T21:21:14.980Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T21:21:14.993Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T21:26:14.979Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T21:26:14.981Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T21:26:14.998Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T21:31:14.979Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T21:31:14.981Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T21:31:14.995Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      },
+      {
+        "time": "2020-03-02T21:36:14.980Z",
+        "type": "INFO",
+        "message": "738e956bab1bf99a POLL COMMAND - GPS"
+      },
+      {
+        "time": "2020-03-02T21:36:14.982Z",
+        "type": "INFO",
+        "message": "Requested 0xLO From 738e956bab1bf99a"
+      },
+      {
+        "time": "2020-03-02T21:36:15.000Z",
+        "type": "SUCCESS",
+        "message": "738e956bab1bf99a GPS Updated"
+      }
+    ],
+    "ipLog": []
+  },
+  "clients": [
+    {
+      "clientID": "738e956bab1bf99a",
+      "firstSeen": "2020-03-02T17:21:07.920Z",
+      "lastSeen": "2020-03-02T20:06:14.966Z",
+      "isOnline": true,
+      "dynamicData": {
+        "clientIP": "172.20.21.10",
+        "clientGeo": {},
+        "device": {
+          "model": "Android SDK built for x86",
+          "manufacture": "Google",
+          "version": "10"
+        }
+      }
+    }
+  ]
+}
